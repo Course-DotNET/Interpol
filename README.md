@@ -1,5 +1,5 @@
 #  Project-I
-##### by Yevhenii Bakhmat
+###### by Yevhenii Bakhmat
 Good morning. This project was made as course project for Objective-oriented programming.
 Want to say "Thank you for help" to Oleg Gramm who was teaching me to work.
 ***
@@ -15,6 +15,10 @@ This project was created using such technologies:
 LICENSE: GNU GENERAL PUBLIC LICENSE Version 3, 29.06.2007
 ***
 Contact:
-* [Telegram](https://t.me/johnbahmat)
-* [Twitter](https://twitter.com/JohnDiviner)
+* [Telegram][tg]
+* [Twitter][tw]
 * E-Mail : yevhenii.bakhmat@nure.ua
+
+
+[tg]: https://t.me/johnbahmat
+[tw]: https://twitter.com/JohnDiviner
