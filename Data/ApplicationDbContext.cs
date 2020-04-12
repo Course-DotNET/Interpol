@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Interpol.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Interpol.Data
-{
-    public class ApplicationDbContext : IdentityDbContext
+namespace Interpol.Data {
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> context) : base(context) {
+            
         }
+        public DbSet<Criminal> Criminals { get; set; }
+        public DbSet<Crime> Crimes { get; set; }
+        public DbSet<Organisation> Organisations { get; set; }
     }
 }
